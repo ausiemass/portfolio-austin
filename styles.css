@@ -1,0 +1,117 @@
+/* Adding poppins fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  font-family: Poppins;
+}
+
+/* adding the main container*/
+.container {
+  min-width: 375px;
+  max-width: 1200px;
+  padding-bottom: 70px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 80px;
+  position: relative;
+  background-image: url(images/header-shapes-mobile.jpg);
+  background-size: cover;
+  /* background */
+}
+
+/*adding the humburger*/
+.menu-bar {
+  width: 15px;
+  height: 2px;
+  background-color:#6070FF;
+  margin: 6px 0;
+}
+
+/* logo*/
+.logo {
+  color: #6070FF;
+  font-family: Poppins;
+  font-size: 18px;
+
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+}
+.salutation {
+  color: #172B4D;
+}
+
+.connect {
+  color: #7F8CFF;
+  
+}
+
+.portfolio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+/* Media queries for tablets*/
+
+@media only screen and (min-width: 375px) {
+  .menu-bar {
+    width: 25px;
+    height: 3px;
+    background-color:#6070FF;
+    margin: 6px 0;
+  }
+
+  .logo {
+
+    color: #6070FF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 225px;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700px;
+      }
+    
+ 
+}
+
+ 
+/* media queries for desktops*/
+
+@media only screen and (min-width: 768px) {
+ 
+  .menu-bar {
+  
+    width: 35px;
+    height: 5px;
+    background-color: #6070FF;
+    margin: 6px 0;
+    
+ 
+}
+
+.logo {
+
+  color: #6070FF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 350px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: none;
+  
+  
+  }
+
+ 
+} 
