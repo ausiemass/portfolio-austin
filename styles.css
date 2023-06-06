@@ -58,15 +58,16 @@
   width: 100%;
   max-width: 100%;
 }
+
 ul {
   list-style-type: none;
   display: flex;
 }
 
-li{
+li {
   width: 40px;
   margin-right: 5px;
-  list-style: none
+  list-style: none;
 }
 
 /* Media queries for tablets
