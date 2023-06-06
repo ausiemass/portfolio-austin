@@ -1,11 +1,13 @@
 /* Adding poppins fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 * {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
 }
 
-/* adding the main container*/
+/* adding the main container */
+
 .container {
   min-width: 375px;
   max-width: 1200px;
@@ -16,102 +18,85 @@
   position: relative;
   background-image: url(images/header-shapes-mobile.jpg);
   background-size: cover;
-  /* background */
 }
 
-/*adding the humburger*/
+/* adding the humburger */
+
 .menu-bar {
   width: 15px;
   height: 2px;
-  background-color:#6070FF;
+  background: #6070ff;
   margin: 6px 0;
 }
 
-/* logo*/
-.logo {
-  color: #6070FF;
-  font-family: Poppins;
-  font-size: 18px;
+/* logo */
 
+.logo {
+  color: #6070ff;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
   line-height: 10px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   text-decoration: none;
   font-weight: 700;
 }
+
 .salutation {
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .connect {
-  color: #7F8CFF;
-  
+  color: #7f8cff;
 }
 
 .portfolio-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height:auto;
+  height: auto;
   width: 100%;
   max-width: 100%;
 }
 
-
-/* Media queries for tablets*/
-
+/* Media queries for tablets
 @media only screen and (min-width: 375px) {
   .menu-bar {
     width: 25px;
     height: 3px;
-    background-color:#6070FF;
+    background: color #6070ff;
     margin: 6px 0;
   }
 
   .logo {
-
-    color: #6070FF;
+    color: #6070ff;
     font-family: Poppins;
     font-size: 16px;
-    font-weight: 225px;
     line-height: 15px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     text-decoration: none;
     font-weight: 700px;
-      }
-    
- 
-}
+    }
+} */
 
- 
-/* media queries for desktops*/
-
+/* media queries for desktops
 @media only screen and (min-width: 768px) {
- 
-  .menu-bar {
-  
-    width: 35px;
-    height: 5px;
-    background-color: #6070FF;
-    margin: 6px 0;
-    
- 
+.menu-bar {
+  width: 35px;
+  height: 5px;
+  background-color: #6070ff;
+  margin: 6px 0;
 }
 
-.logo {
-
-  color: #6070FF;
-  font-family: Poppins;
-  font-size: 24px;
-  font-weight: 350px;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: center;
-  text-decoration: none;
-  
-  
+  .logo {
+      color: #6070ff;
+      font-family: Poppins;
+      font-size: 24px;
+      font-weight: 350px;
+      line-height: 20px;
+      letter-spacing: 0;
+      text-align: center;
+      text-decoration: none;
   }
-
- 
-} 
+} */
