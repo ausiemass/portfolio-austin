@@ -6,20 +6,28 @@
   font-family: Poppins, sans-serif;
 }
 
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 /* adding the main container */
 
 .container {
   min-width: 375px;
-  max-width: 100%;
-  padding-bottom: 70px;
+  max-width: 1200px;
+  
   background-color: #fff;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
   position: relative;
-  background-image: url(images/header-shapes-mobile.jpg);
+  background-image: url(images/header-shapes\ mobile@2x.svg);
   background-size: cover;
-  margin: 24px;
+  margin-top: 0;
+  padding-top: 0;
+  
 }
+
 
 /* adding the humburger */
 
@@ -28,22 +36,25 @@
   height: 2px;
   background: #6070ff;
   margin: 6px 0;
-}
+  }
 
 /* logo */
 
 .logo {
   color: #6070ff;
   font-family: Poppins, sans-serif;
-  font-size: 18px;
+  font-size: 1.5rem;
   line-height: 10px;
   letter-spacing: 0;
   text-align: center;
   text-decoration: none;
   font-weight: 700;
+  
+  
 }
 
 .salutation {
+  
   color: #172b4d;
   font-family: Poppins, sans-serif;
   font-size: 40px;
@@ -51,6 +62,10 @@
   line-height: 52px;
   letter-spacing: 0;
   text-align: left;
+  width: 100%;
+  padding-top: 114px;
+  padding-left: 24px;
+  
 }
 
 .developer {
@@ -61,6 +76,7 @@
   letter-spacing: 0;
   text-align: left;
   color: #344563;
+  padding-left: 24px;
 }
 
 .connect {
@@ -71,22 +87,28 @@
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .portfolio-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: auto;
+  height: 92px;
   width: 100%;
-  max-width: 100%;
+  border-radius: 0;
+  max-width: 100%;  
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 ul {
   list-style-type: none;
   display: flex;
   margin: 0;
-  padding: 0;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 li {
