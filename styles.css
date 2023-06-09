@@ -4,25 +4,19 @@
 
 * {
   font-family: Poppins, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 /* adding the main container */
 
 .container {
-  min-width: 375px;
-  max-width: 1200px;
   background-color: #fff;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
-  position: relative;
   background-image: url(images/header-shapes\ mobile@2x.svg);
   background-size: cover;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
+  padding: 8vw;
 }
 
 /* adding the humburger */
@@ -52,13 +46,12 @@ body {
   font-family: Poppins, sans-serif;
   font-size: 40px;
   font-weight: 700;
-  line-height: 52px;
+  /* line-height: 52px; */
   letter-spacing: 0;
   text-align: left;
-  padding-top: 114px;
+  /* padding-top: 114px; */
   margin-top: 0;
-  padding-left: 24px;
-  padding-right: 24px;
+  
 }
 
 .developer {
@@ -69,8 +62,6 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: #344563;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .connect {
@@ -81,8 +72,8 @@ body {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .portfolio-header {
@@ -91,28 +82,22 @@ body {
   align-items: center;
   height: 76px;
   border-radius: 0;
-  padding-left: 24px;
-  padding-right: 24px;
+ padding: 1em;
 }
 
-.time {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 100%;
-  border-radius: 0;
-  padding-top: 5px;
-  margin-top: 16px;
-  padding-left: 21px;
-  padding-right: 21px;
-}
 
 ul {
   list-style-type: none;
   display: flex;
-  margin: 0;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  /* list-style: none;
+  padding: 0;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 5%;
+  flex-wrap: wrap; */
 }
 
 li {
@@ -120,3 +105,161 @@ li {
   list-style: none;
   text-align: left;
 }
+
+.about-me {
+  background-image: url(images/aboutMyself.jpg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  border-top-right-radius: 80px;
+  position: relative;
+  background-size: cover;
+  padding-bottom: 90px;
+  padding: 1em;
+  padding-bottom: 90px;
+}
+
+.resume {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #6070FF;
+  background: #fff;
+}
+
+.seperatorLine {
+  width: 10px;
+}
+
+.languages div img {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #fff;
+  margin-right: 10%;
+}
+
+.languages div {
+  display: flex;
+  height: 66.7155990600586px;
+  border-radius: 8px;
+  background: #F7F7F9;
+  margin: 12px;
+
+}
+
+.lang, .lan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.lan img {
+  height: 6px;
+  width: 12px;
+}
+.lang img {
+  height: 12px;
+  width: 6px;
+}
+
+.skill {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr ;
+  background-color: #fff;
+  padding: 22vh 8vw;
+  
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 255);
+  font-size: 30px;
+  text-align: left;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+.works1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+  align-items: center;
+}
+
+.flex li, p {
+  font-size: 13px;
+}
+
+.flex img {
+  width: 8px;
+  height: 8px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+
+}
+
+.card img {
+  width: 48px;
+  height: 48px;
+  padding: 20px;
+  row-gap: 20px;
+}
+
+.flexf {
+  display: grid;
+  grid-template-columns: 7fr 1fr 11fr 1fr 3fr;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.flexf img {
+  width: 8px;
+  height: 8px;
+  
+}
+
+.flexf p {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+}
+
+.canopy {
+  color: #344563;
+}
+
+.back {
+  color: #7A869A;
+}
+
+.btn1 {
+border-radius: 8px;
+background: #EBEBFF;
+
+}
+
