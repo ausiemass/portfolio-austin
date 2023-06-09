@@ -46,12 +46,9 @@
   font-family: Poppins, sans-serif;
   font-size: 40px;
   font-weight: 700;
-  /* line-height: 52px; */
   letter-spacing: 0;
   text-align: left;
-  /* padding-top: 114px; */
   margin-top: 0;
-  
 }
 
 .developer {
@@ -82,22 +79,14 @@
   align-items: center;
   height: 76px;
   border-radius: 0;
- padding: 1em;
+  padding: 1em;
 }
-
 
 ul {
   list-style-type: none;
   display: flex;
   padding-top: 5%;
   padding-bottom: 5%;
-
-  /* list-style: none;
-  padding: 0;
-  width: 100%;
-  justify-content: space-around;
-  margin-top: 5%;
-  flex-wrap: wrap; */
 }
 
 li {
@@ -113,7 +102,6 @@ li {
   border-top-right-radius: 80px;
   position: relative;
   background-size: cover;
-  padding-bottom: 90px;
   padding: 1em;
   padding-bottom: 90px;
 }
@@ -125,28 +113,12 @@ li {
   text-align: center;
   padding: 12px;
   border-radius: 8px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   background: #fff;
 }
 
 .seperatorLine {
   width: 10px;
-}
-
-.languages div img {
-  width: 48px;
-  height: 48px;
-  border: 1px solid #fff;
-  margin-right: 10%;
-}
-
-.languages div {
-  display: flex;
-  height: 66.7155990600586px;
-  border-radius: 8px;
-  background: #F7F7F9;
-  margin: 12px;
-
 }
 
 .lang, .lan {
@@ -155,11 +127,11 @@ li {
   justify-content: space-between;
 }
 
-
 .lan img {
   height: 6px;
   width: 12px;
 }
+
 .lang img {
   height: 12px;
   width: 6px;
@@ -174,10 +146,9 @@ li {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   background-color: #fff;
   padding: 22vh 8vw;
-  
 }
 
 .grid-item {
@@ -204,20 +175,10 @@ li {
   align-items: center;
 }
 
-.flex li, p {
-  font-size: 13px;
-}
-
-.flex img {
-  width: 8px;
-  height: 8px;
-}
-
 .card {
   display: grid;
   grid-template-columns: 1fr 3fr;
   align-items: center;
-
 }
 
 .card img {
@@ -233,13 +194,11 @@ li {
   align-items: center;
   padding-top: 5%;
   padding-bottom: 5%;
-
 }
 
 .flexf img {
   width: 8px;
   height: 8px;
-  
 }
 
 .flexf p {
@@ -254,12 +213,10 @@ li {
 }
 
 .back {
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .btn1 {
-border-radius: 8px;
-background: #EBEBFF;
-
+  border-radius: 8px;
+  background: #ebebff;
 }
-
