@@ -121,7 +121,13 @@ li {
   width: 10px;
 }
 
-.lang, .lan {
+.lang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lan {
   display: flex;
   align-items: center;
   justify-content: space-between;
