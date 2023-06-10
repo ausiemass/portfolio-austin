@@ -4,25 +4,19 @@
 
 * {
   font-family: Poppins, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 /* adding the main container */
 
 .container {
-  min-width: 375px;
-  max-width: 1200px;
   background-color: #fff;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
-  position: relative;
   background-image: url(images/header-shapes\ mobile@2x.svg);
   background-size: cover;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
+  padding: 8vw;
 }
 
 /* adding the humburger */
@@ -52,13 +46,9 @@ body {
   font-family: Poppins, sans-serif;
   font-size: 40px;
   font-weight: 700;
-  line-height: 52px;
   letter-spacing: 0;
   text-align: left;
-  padding-top: 114px;
   margin-top: 0;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .developer {
@@ -69,8 +59,6 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: #344563;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .connect {
@@ -81,8 +69,8 @@ body {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .portfolio-header {
@@ -91,32 +79,188 @@ body {
   align-items: center;
   height: 76px;
   border-radius: 0;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 1em;
 }
 
-.time {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 100%;
-  border-radius: 0;
-  padding-top: 5px;
-  margin-top: 16px;
-  padding-left: 21px;
-  padding-right: 21px;
-}
-
-ul {
+.social ul {
   list-style-type: none;
   display: flex;
-  margin: 0;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-li {
+.buttons li {
+  list-style: none;
+  text-align: left;
+  margin-right: 5%;
+}
+
+.about-skill li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social ul li {
   width: 40px;
   list-style: none;
   text-align: left;
+}
+
+.resume {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding: 5%;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  background: #fff;
+  color: #396df2;
+}
+
+.seperatorLine {
+  width: 10px;
+}
+
+.btn1 {
+  border-radius: 8px;
+  background: #ebebff;
+  height: 24px;
+  border: none;
+  padding: 4px 12px 4px 12px;
+}
+
+.works {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 114px;
+  padding: 8vw;
+  background: #e5e5e5;
+}
+
+.card {
+  display: flex;
+  background-color: rgba(255, 255, 255, 255);
+  font-size: 30px;
+  text-align: left;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  padding: 5%;
+  border-radius: 16px;
+}
+
+.works img {
+  width: 100%;
+}
+
+.works1 ul {
+  list-style-type: disc;
+  display: flex;
+}
+
+.back {
+  list-style: disc;
+  text-align: left;
+  font-size: 13px;
+  padding-right: 10%;
+}
+
+.canopy {
+  list-style-type: none;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+  padding-right: 10%;
+}
+
+.buttons {
+  list-style-type: none;
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.list-items {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px 0 #4053fc3d;
+  background: #6070ff;
+  color: white;
+}
+
+button:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+button:disabled {
+  color: #5e6c84;
+  background-color: #fff;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  border-top-right-radius: 80px;
+  padding: 5%;
+  padding-bottom: 90px;
+}
+
+.about-skill {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.aboutl img {
+  width: 12px;
+  height: 6px;
+}
+
+.about img {
+  width: 6px;
+  height: 12px;
+}
+
+.about-skill p {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  margin-top: 5%;
+}
+
+.about-skill p img {
+  width: 48px;
+  height: 48px;
+  padding-right: 20px;
+}
+
+.about {
+  height: 68px;
+}
+
+.get-resume {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  background: #fff;
+  color: #396df2;
+  width: 50%;
 }
