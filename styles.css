@@ -82,28 +82,29 @@
   padding: 1em;
 }
 
-ul {
+.social ul {
   list-style-type: none;
   display: flex;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
-li {
+.buttons li {
+  list-style: none;
+  text-align: left;
+  margin-right: 5%;
+}
+
+.about-skill li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social ul li {
   width: 40px;
   list-style: none;
   text-align: left;
-}
-
-.about-me {
-  background-image: url(images/aboutMyself.jpg);
-  background-color: #fff;
-  background-repeat: no-repeat;
-  border-top-right-radius: 80px;
-  position: relative;
-  background-size: cover;
-  padding: 1em;
-  padding-bottom: 90px;
 }
 
 .resume {
@@ -111,118 +112,155 @@ li {
   font-weight: 500;
   letter-spacing: 0.03em;
   text-align: center;
-  padding: 12px;
+  padding: 5%;
   border-radius: 8px;
   border: 1px solid #6070ff;
   background: #fff;
+  color: #396df2;
 }
 
 .seperatorLine {
   width: 10px;
 }
 
-.lang {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.btn1 {
+  border-radius: 8px;
+  background: #ebebff;
+  height: 24px;
+  border: none;
+  padding: 4px 12px 4px 12px;
 }
 
-.lan {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.lan img {
-  height: 6px;
-  width: 12px;
-}
-
-.lang img {
-  height: 12px;
-  width: 6px;
-}
-
-.skill {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 48px;
-  text-align: left;
-}
-
-.grid-container {
+.works {
   display: grid;
-  grid-template-columns: 1fr;
-  background-color: #fff;
-  padding: 22vh 8vw;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 255);
-  font-size: 30px;
-  text-align: left;
-}
-
-.grid-item img {
-  width: 100%;
-  height: auto;
-}
-
-.works1 {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 75%;
-  align-items: center;
+  grid-template-columns: auto;
+  gap: 114px;
+  padding: 8vw;
+  background: #e5e5e5;
 }
 
 .card {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  align-items: center;
+  display: flex;
+  background-color: rgba(255, 255, 255, 255);
+  font-size: 30px;
+  text-align: left;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  padding: 5%;
+  border-radius: 16px;
 }
 
-.card img {
-  width: 48px;
-  height: 48px;
-  padding: 20px;
-  row-gap: 20px;
+.works img {
+  width: 100%;
 }
 
-.flexf {
-  display: grid;
-  grid-template-columns: 7fr 1fr 11fr 1fr 3fr;
-  align-items: center;
+.works1 ul {
+  list-style-type: disc;
+  display: flex;
+}
+
+.back {
+  list-style: disc;
+  text-align: left;
+  font-size: 13px;
+  padding-right: 10%;
+}
+
+.canopy {
+  list-style-type: none;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+  padding-right: 10%;
+}
+
+.buttons {
+  list-style-type: none;
+  display: flex;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
-.flexf img {
-  width: 8px;
-  height: 8px;
+.list-items {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-.flexf p {
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 16px;
-  text-align: left;
+button:hover {
+  box-shadow: 0 8px 16px 0 #4053fc3d;
+  background: #6070ff;
+  color: white;
 }
 
-.canopy {
-  color: #344563;
+button:active {
+  background: #2230d2;
+  color: #fff;
 }
 
-.back {
-  color: #7a869a;
+button:disabled {
+  color: #5e6c84;
+  background-color: #fff;
 }
 
-.btn1 {
+.about-me {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  border-top-right-radius: 80px;
+  padding: 5%;
+  padding-bottom: 90px;
+}
+
+.about-skill {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.aboutl img {
+  width: 12px;
+  height: 6px;
+}
+
+.about img {
+  width: 6px;
+  height: 12px;
+}
+
+.about-skill p {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #f7f7f9;
   border-radius: 8px;
-  background: #ebebff;
+  margin-bottom: 6px;
+  margin-top: 5%;
+}
+
+.about-skill p img {
+  width: 48px;
+  height: 48px;
+  padding-right: 20px;
+}
+
+.about {
+  height: 68px;
+}
+
+.get-resume {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  background: #fff;
+  color: #396df2;
+  width: 50%;
 }
