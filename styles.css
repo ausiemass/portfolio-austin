@@ -140,7 +140,7 @@
 }
 
 .card {
-  display: flex;
+ float: left;
   background-color: rgba(255, 255, 255, 255);
   font-size: 30px;
   text-align: left;
