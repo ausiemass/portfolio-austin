@@ -271,10 +271,9 @@ button:disabled {
   display: flex;
   flex-direction: column;
   border-top-left-radius: 80px;
-  background: #6070FF;
+  background: #6070ff;
   align-items: center;
-  width: 22vh 8vw;
-  
+  width: 22vh 8vw; 
 }
 
 .contact-me {
@@ -290,14 +289,12 @@ button:disabled {
   font-weight: 400;
   text-align: center;
   color: #fff;
-
-
 }
 
 .contact-item {
-justify-content: center;
-margin-top: 5%;
-margin-bottom: 5%;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .contact-form form {
@@ -307,18 +304,46 @@ margin-bottom: 5%;
 
 .form-item {
   margin-top: 5%;
-margin-bottom: 5%;
-border-radius: 8px;
+  margin-bottom: 5%;
+  border-radius: 8px;
 }
 
 .form input { 
- height: 48px;
+  height: 48px;
+  border: none;
 }
 
 .form button {
   height: 48px;
-width: 38%;
+  width: 38%;
+  border: none;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
+.form input::placeholder {
+  color: #172b4d;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left; 
+}
 
+.form textarea::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #b3bac5;
+}
+
+.home-shape {
+  margin-bottom: 8px;
+}
 
