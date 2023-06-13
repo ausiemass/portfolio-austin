@@ -140,7 +140,7 @@
 }
 
 .card {
-display: flex;
+  display: flex;
   background-color: rgba(255, 255, 255, 255);
   font-size: 30px;
   text-align: left;
@@ -285,11 +285,6 @@ button:disabled {
   color: #fff;
 }
 
-
-
-
-
-
 .contact-form p {
   font-size: 20px;
   font-weight: 400;
@@ -304,7 +299,6 @@ justify-content: center;
 margin-top: 5%;
 margin-bottom: 5%;
 }
-
 
 .contact-form form {
   display: flex;
@@ -325,4 +319,6 @@ border-radius: 8px;
   height: 48px;
 width: 38%;
 }
+
+
 
