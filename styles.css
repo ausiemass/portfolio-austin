@@ -273,7 +273,7 @@ button:disabled {
   border-top-left-radius: 80px;
   background: #6070ff;
   align-items: center;
-  width: 22vh 8vw; 
+  width: 22vh 8vw;
 }
 
 .contact-me {
@@ -308,7 +308,7 @@ button:disabled {
   border-radius: 8px;
 }
 
-.form input { 
+.form input {
   height: 48px;
   border: none;
 }
@@ -331,7 +331,7 @@ button:disabled {
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0;
-  text-align: left; 
+  text-align: left;
 }
 
 .form textarea::placeholder {
@@ -346,4 +346,3 @@ button:disabled {
 .home-shape {
   margin-bottom: 8px;
 }
-
