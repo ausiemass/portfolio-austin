@@ -95,12 +95,6 @@
   margin-right: 5%;
 }
 
-.about-skill li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .social ul li {
   width: 40px;
   list-style: none;
@@ -219,7 +213,15 @@ button:disabled {
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-top: 5%;
+}
+
+.about-skill li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .aboutl img {
@@ -232,20 +234,28 @@ button:disabled {
   height: 12px;
 }
 
-.about-skill p {
+.about-skill ul {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   padding: 10px;
-  background: #f7f7f9;
-  border-radius: 8px;
   margin-bottom: 6px;
   margin-top: 5%;
+  margin-right: 5%;
 }
 
-.about-skill p img {
+.about-skill ul img {
   width: 48px;
   height: 48px;
   padding-right: 20px;
+}
+
+.about-skill ul li {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .about {
@@ -369,3 +379,84 @@ button:disabled {
   color: #5e6c84;
   background-color: #fff;
 }
+
+
+.header-menu ul {
+  display: none;
+}
+
+/* desktop version */
+
+ @media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    gap: 6.4%;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    gap: 6.4%;
+  }
+
+  .header-menu img {
+    display: none;
+  }
+
+  .header-menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+     }
+
+     
+
+  .header-menu ul li {
+   list-style: none;
+  }
+
+  .header-menu a {
+    text-decoration: none;
+    color: #344563;
+
+  }
+
+  .card img {
+    height: 100%;
+  } 
+
+  .card-reverse {
+    flex-direction: row-reverse;
+  }
+  .skills {
+    width: 100%;
+    
+  }
+
+  .about-skill ul {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    background: #fff;
+    margin-right: 50%;
+  }
+
+  .about-skill ul  li{
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f9;
+    width: 50%;
+    margin-right: 10%;
+    
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* padding: 5%; */
+  }
+
+  .form-button {
+    margin-left: 30%;
+  }
+
+} 
