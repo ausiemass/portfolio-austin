@@ -264,3 +264,108 @@ button:disabled {
   color: #396df2;
   width: 50%;
 }
+
+/* contact form styling */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 80px;
+  background: #6070ff;
+  align-items: center;
+  width: 22vh 8vw;
+  background-image: url(images/blue-background_720.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-me {
+  margin-top: 103px;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact-form p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #ebebff;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.contact-item {
+  justify-content: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item {
+  margin: 2% 5%;
+  border-radius: 8px;
+}
+
+.form input {
+  height: 48px;
+  border: 1px solid #cfd8dc;
+}
+
+.form button {
+  height: 48px;
+  width: 38%;
+  border: none;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.form input::placeholder {
+  color: #172b4d;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.form textarea::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #b3bac5;
+}
+
+.home-shape {
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.input-item {
+  padding: 5%;
+}
+
+.form-button:hover {
+  box-shadow: 0 8px 16px 0 #4053fc3d;
+  background: #6070ff;
+  color: white;
+}
+
+.form-button:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.form-button:disabled {
+  color: #5e6c84;
+  background-color: #fff;
+}
