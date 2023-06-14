@@ -95,12 +95,6 @@
   margin-right: 5%;
 }
 
-.social ul li {
-  width: 40px;
-  list-style: none;
-  text-align: left;
-}
-
 .resume {
   font-size: 17px;
   font-weight: 500;
@@ -217,13 +211,6 @@ button:disabled {
   margin-top: 5%;
 }
 
-.about-skill li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .aboutl img {
   width: 12px;
   height: 6px;
@@ -243,6 +230,13 @@ button:disabled {
   margin-right: 5%;
 }
 
+.about-skill li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .about-skill ul img {
   width: 48px;
   height: 48px;
@@ -260,6 +254,12 @@ button:disabled {
 
 .about {
   height: 68px;
+}
+
+.social ul li {
+  width: 40px;
+  list-style: none;
+  text-align: left;
 }
 
 .get-resume {
@@ -380,14 +380,13 @@ button:disabled {
   background-color: #fff;
 }
 
-
 .header-menu ul {
   display: none;
 }
 
 /* desktop version */
 
- @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .card {
     display: flex;
     flex-direction: row;
@@ -409,30 +408,27 @@ button:disabled {
     flex-direction: row;
     align-items: center;
     gap: 8px;
-     }
-
-     
+  }
 
   .header-menu ul li {
-   list-style: none;
+    list-style: none;
   }
 
   .header-menu a {
     text-decoration: none;
     color: #344563;
-
   }
 
   .card img {
     height: 100%;
-  } 
+  }
 
   .card-reverse {
     flex-direction: row-reverse;
   }
+
   .skills {
     width: 100%;
-    
   }
 
   .about-skill ul {
@@ -443,20 +439,15 @@ button:disabled {
     margin-right: 50%;
   }
 
-  .about-skill ul  li{
+  .about-skill ul li {
     display: flex;
     flex-direction: column;
     background: #f7f7f9;
     width: 50%;
     margin-right: 10%;
-    
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    /* padding: 5%; */
   }
 
   .form-button {
     margin-left: 30%;
   }
-
-} 
+}
