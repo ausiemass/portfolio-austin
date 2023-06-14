@@ -275,6 +275,8 @@ button:disabled {
   align-items: center;
   width: 22vh 8vw;
   background-image: url(images/blue-background_720.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact-me {
