@@ -274,7 +274,7 @@ button:disabled {
   background: #6070ff;
   align-items: center;
   width: 22vh 8vw;
-  /* background-image: url(images/blue-background_720.png); */
+  background-image: url(images/blue-background_720.png);
 }
 
 .contact-me {
@@ -292,12 +292,10 @@ button:disabled {
   color: #ebebff;
   margin-left: 5%;
   margin-right: 5%;
-
 }
 
 .contact-item {
   justify-content: center;
- 
 }
 
 .contact-form form {
@@ -306,13 +304,13 @@ button:disabled {
 }
 
 .form-item {
- margin: 2% 5%;
+  margin: 2% 5%;
   border-radius: 8px;
- }
+}
 
 .form input {
   height: 48px;
-  border: 1px solid #cfd8dc
+  border: 1px solid #cfd8dc;
 }
 
 .form button {
@@ -349,6 +347,7 @@ button:disabled {
   margin-bottom: 8px;
   margin-top: 20px;
 }
+
 .input-item {
   padding: 5%;
 }
