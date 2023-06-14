@@ -274,6 +274,7 @@ button:disabled {
   background: #6070ff;
   align-items: center;
   width: 22vh 8vw;
+  /* background-image: url(images/blue-background_720.png); */
 }
 
 .contact-me {
@@ -288,13 +289,15 @@ button:disabled {
   font-size: 20px;
   font-weight: 400;
   text-align: center;
-  color: #fff;
+  color: #ebebff;
+  margin-left: 5%;
+  margin-right: 5%;
+
 }
 
 .contact-item {
   justify-content: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
+ 
 }
 
 .contact-form form {
@@ -303,14 +306,13 @@ button:disabled {
 }
 
 .form-item {
-  margin-top: 5%;
-  margin-bottom: 5%;
+ margin: 2% 5%;
   border-radius: 8px;
-}
+ }
 
 .form input {
   height: 48px;
-  border: none;
+  border: 1px solid #cfd8dc
 }
 
 .form button {
@@ -345,4 +347,24 @@ button:disabled {
 
 .home-shape {
   margin-bottom: 8px;
+  margin-top: 20px;
+}
+.input-item {
+  padding: 5%;
+}
+
+.form-button:hover {
+  box-shadow: 0 8px 16px 0 #4053fc3d;
+  background: #6070ff;
+  color: white;
+}
+
+.form-button:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.form-button:disabled {
+  color: #5e6c84;
+  background-color: #fff;
 }
