@@ -59,6 +59,7 @@
   letter-spacing: 0;
   text-align: left;
   color: #344563;
+  margin-top: 12px;
 }
 
 .connect {
@@ -98,9 +99,8 @@
 .resume {
   font-size: 17px;
   font-weight: 500;
-  letter-spacing: 0.03em;
   text-align: center;
-  padding: 5%;
+  padding: 12px;
   border-radius: 8px;
   border: 1px solid #6070ff;
   background: #fff;
@@ -169,13 +169,6 @@
 .buttons {
   list-style-type: none;
   display: flex;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-.list-items {
-  padding-top: 5%;
-  padding-bottom: 5%;
 }
 
 button:hover {
@@ -217,14 +210,12 @@ button:disabled {
 .get-resume {
   font-size: 17px;
   font-weight: 500;
-  letter-spacing: 0.03em;
   text-align: center;
   padding: 10px;
   border-radius: 8px;
   border: 1px solid #6070ff;
   background: #fff;
   color: #396df2;
-  width: 50%;
 }
 
 .skill-list {
@@ -259,6 +250,7 @@ button:disabled {
   justify-content: space-between;
   height: 72px;
   align-items: center;
+  color: #344563;
 }
 
 .skills-languages {
@@ -297,14 +289,17 @@ button:disabled {
   background-image: url(images/blue-background_720.png);
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: center;
 }
 
 .contact-me {
+  display: flex;
   margin-top: 103px;
   justify-content: center;
   font-size: 40px;
   font-weight: 700;
   color: #fff;
+  align-self: center;
 }
 
 .contact-form p {
@@ -326,12 +321,12 @@ button:disabled {
 }
 
 .form-item {
-  margin: 2% 5%;
+  margin: 2% 4%;
   border-radius: 8px;
 }
 
 .form input {
-  height: 48px;
+  /* height: 48px; */
   border: 1px solid #cfd8dc;
 }
 
@@ -368,10 +363,11 @@ button:disabled {
 .home-shape {
   margin-bottom: 8px;
   margin-top: 20px;
+  margin-left: 30%;
 }
 
 .input-item {
-  padding: 5%;
+  padding: 15px;
 }
 
 .form-button:hover {
@@ -508,13 +504,9 @@ button:disabled {
     padding: 0;
   }
 
-  .resume {
+  /* .get-resume {
     font-size: 12px;
-  }
-
-  .get-resume {
-    font-size: 12px;
-  }
+  } */
 
   /* contact me form styling */
 
@@ -538,9 +530,33 @@ button:disabled {
 
   .items p {
     height: 17%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .home-shape {
     display: none;
+  }
+
+  .container {
+    background-size: 73% 97%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0;
+    background-image: url(images/header-shapes\ mobile@2x.svg);
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 80px;
+    background: #6070ff;
+    background-image: url(images/contact\ form\ background\ shapes@2x.png);
+    background-size: 90% 77%;
+    margin-top: 0;
+    text-align: center;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
