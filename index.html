@@ -14,19 +14,25 @@
     <header>
         <section class="portfolio-header">
             <a class="logo">My Logo</a>
-            <img src="images/Enabled.png" alt="hamburger">
+            <nav class="header-menu">
+                <img src="images/Enabled.png" alt="hamburger" class="hamburger">
+                <ul>
+                   <a href="#"><li>Portfolio</li></a> 
+                   <a href="#"><li>About</li></a> 
+                   <a href="#"><li>Contact</li></a>
+                </ul>
+            </nav>
         </section>
     </header>
-  
     
     <section class="container">
-            <h1 class="salutation">I’m Austin. <br> Glad to see you!</h1>
+            <h1 class=" container-item salutation first">I’m Austin. <br> Glad to see you!</h1>
 
-            <p class="developer"> I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+            <p class="container-item developer"> I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
 
-    <h2 class="connect">LET'S CONNECT</h2>
+    <h2 class="container-item connect">LET'S CONNECT</h2>
 
-        <section class="social">
+        <section class="container-item social">
             <ul >
                 <li><a href="https://twitter.com/home"><img src="images/twitter.jpg" alt="twitter"></a></li>
                 <li> <a href="https://www.linkedin.com/feed/"><img src="images/Linkedin-icon.jpg" alt="Linkedin"></a></li>
@@ -42,7 +48,7 @@
 <section class="works">
 <!-- card 1 -->
 <div class="card">
-    <div class="flex-item"><img src="images/tonic1.jpg" alt="works 1"></div>
+    <div class="flex-item"><img class="card-img1" src="images/tonic1.jpg" alt="works 1"></div>
     <div class="flex-item">
         <div class="works1">
             <h2 class="salutation">Tonic</h2>
@@ -67,8 +73,8 @@
 <!-- The end if card 1 -->
 
 <!-- card 2 -->
-<div class="card">
-    <div class="flex-item"><img src="images/Snapshoot Portfolio.png" alt="works 1"></div>
+<div class="card card-reverse">
+    <div class="flex-item"><img class="card-img2" src="images/Snapshoot Portfolio.png" alt="works 1"></div>
     <div class="flex-item">
         <div class="works1">
             <h2 class="salutation">Tonic</h2>
@@ -94,7 +100,7 @@
 
 <!-- card 3 -->
 <div class="card">
-    <div class="flex-item"><img src="images/multi-post-stories.jpg" alt="works 1"></div>
+    <div class="flex-item"><img class="card-img3" src="images/multi-post-stories.jpg" alt="works 1"></div>
     <div class="flex-item">
         <div class="works1">
             <h2 class="salutation">Tonic</h2>
@@ -119,8 +125,8 @@
 <!-- The end if card 3 -->
 
 <!-- card 4 -->
-<div class="card">
-    <div class="flex-item"><img src="images/tonic.jpg" alt="works 1"></div>
+<div class="card card-reverse">
+    <div class="flex-item"><img class="card-img4" src="images/tonic.jpg" alt="works 1"></div>
     <div class="flex-item">
         <div class="works1">
             <h2 class="salutation">Tonic</h2>
@@ -148,44 +154,72 @@
 
  <!-- This section gives my background -->
 <section class="about-me">
-    <p class="salutation">About Myself </p>
-    <p class="developer">Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+    <div class="me">
+        <p class="myself">About Myself </p>
+        <p class="developer">Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
 
-    <p class="connect">LET'S CONNECT</p>
+        <p class="connect">LET'S CONNECT</p>
 
-    <section class="social">
-        <ul >
-            <li><a href="https://twitter.com/home"><img src="images/twitter.jpg" alt="twitter"></a></li>
-            <li> <a href="https://www.linkedin.com/feed/"><img src="images/Linkedin-icon.jpg" alt="Linkedin"></a></li>
-            <li><a href="https://twitter.com/home"><img src="images/Vector.jpg" alt="twitter"></a></li>
-            <li><a href="https://github.com/ausiemass/portfolio"><img src="images/github.jpg" alt="GITHUB"></a></li>
-            <li><a href="https://twitter.com/home"><img src="images/Vector (2).jpg" alt="twitter"></a></li>
-        </ul> 
-    </section>  
-    <div>
-        <button class="get-resume" type="button">Get my Resume</button>
+        <section class="social">
+            <ul >
+                <li><a href="https://twitter.com/home"><img src="images/twitter.jpg" alt="twitter"></a></li>
+                <li> <a href="https://www.linkedin.com/feed/"><img src="images/Linkedin-icon.jpg" alt="Linkedin"></a></li>
+                <li><a href="https://twitter.com/home"><img src="images/Vector.jpg" alt="twitter"></a></li>
+                <li><a href="https://github.com/ausiemass/portfolio"><img src="images/github.jpg" alt="GITHUB"></a></li>
+                <li><a href="https://twitter.com/home"><img src="images/Vector (2).jpg" alt="twitter"></a></li>
+            </ul> 
+        </section>   
+        
+        <button class="get-resume" type="button">Get my Resume</button>     
 
     </div>
-    
-    <section class="skills">
 
-        <ul class="about-skill">
-            <li class="aboutl">Languages <img src="images/arrowDown.jpg" alt=""></li> 
-            <p><img src="images/js.jpg" alt="">JavaScript</p>
-            <p><img src="images/html.jpg" alt="">HTML</p>
-            <p><img src="images/ccs3.jpg" alt="">CSS</p>
-            
-            <li class="about">Frameworks <img src="images/arrowRight.jpg" alt=""></li> 
-            <hr>
-            <li class="about">Skills <img src="images/arrowRight.jpg" alt=""></li> 
-            <hr>
-        </ul>
-    </section>
+    
+        <div class="skill-list">
+            <ul>
+                <li>
+                    <span class="skills">
+                        Languages <span><img class="skills-img1" src="./images/arrowDown.jpg" alt="languages"></span>
+                    </span>
+                    <ul class="skills-languages">
+                        <li class="add-skills">
+                            <a href="#"><img src="images/js.jpg" alt="JS"></a>
+                            <span class="in-text">
+                                JavaSript
+                            </span>
+                        </li>
+                        <li class="add-skills">
+                            <a href="#"><img  src="images/html.jpg" alt="HTML"></a>
+                            <span class="in-text">
+                                HTML
+                            </span>
+                        </li>
+                        <li class="add-skills">
+                            <a href="#"><img  src="images/ccs3.jpg" alt="CSS"></a>
+                            <span class="in-text">
+                                CSS
+                            </span>
+                        </li>
+                    </ul> 
+                </li>
+                <li class="skills">Frameworks <span><img class="skills-img2" src="images/arrowRight.jpg" alt="frameworks"></span></li>
+                 <li>
+                    <hr class="line">
+                 </li>
+                <li class="skills">Skills <span><img class="skills-img2" src="images/arrowRight.jpg" alt="Skills"></span></li>
+                <li>
+                    <hr class="line">
+                </li>
+            </ul>
+        </div>
 </section>
 
 <!-- This section is about contact form -->
+
 <section class="contact-form">
+  <div class="cont">
     <h2 class="contact-me ">Contact me</h2>
+    <div class="items">
     <p class="contact-item">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
         I’d love to help with it!</p>
         <form action="https://formspree.io/f/mlekqgyv" method="post" class="form contact-item">
@@ -195,6 +229,8 @@
             <button class="form-item form-button" type="submit">Get in touch</button>
         </form>
         <img class="home-shape" src="images/Shape.svg" alt="home Shape">
+    </div>
+    </div>
 </section>
 
 </body>

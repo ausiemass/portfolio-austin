@@ -59,6 +59,7 @@
   letter-spacing: 0;
   text-align: left;
   color: #344563;
+  margin-top: 12px;
 }
 
 .connect {
@@ -95,24 +96,11 @@
   margin-right: 5%;
 }
 
-.about-skill li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.social ul li {
-  width: 40px;
-  list-style: none;
-  text-align: left;
-}
-
 .resume {
   font-size: 17px;
   font-weight: 500;
-  letter-spacing: 0.03em;
   text-align: center;
-  padding: 5%;
+  padding: 12px;
   border-radius: 8px;
   border: 1px solid #6070ff;
   background: #fff;
@@ -126,6 +114,7 @@
 .btn1 {
   border-radius: 8px;
   background: #ebebff;
+  color: #6070ff;
   height: 24px;
   border: none;
   padding: 4px 12px 4px 12px;
@@ -180,13 +169,6 @@
 .buttons {
   list-style-type: none;
   display: flex;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-.list-items {
-  padding-top: 5%;
-  padding-bottom: 5%;
 }
 
 button:hover {
@@ -215,54 +197,84 @@ button:disabled {
   padding-bottom: 90px;
 }
 
-.about-skill {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  margin-top: 5%;
-}
-
-.aboutl img {
-  width: 12px;
-  height: 6px;
-}
-
-.about img {
-  width: 6px;
-  height: 12px;
-}
-
-.about-skill p {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  margin-bottom: 6px;
-  margin-top: 5%;
-}
-
-.about-skill p img {
-  width: 48px;
-  height: 48px;
-  padding-right: 20px;
-}
-
-.about {
-  height: 68px;
+.myself {
+  color: #172b4d;
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 0;
 }
 
 .get-resume {
   font-size: 17px;
   font-weight: 500;
-  letter-spacing: 0.03em;
   text-align: center;
   padding: 10px;
   border-radius: 8px;
   border: 1px solid #6070ff;
   background: #fff;
   color: #396df2;
-  width: 50%;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.skill-list li {
+  list-style: none;
+}
+
+.social ul li {
+  width: 40px;
+  list-style: none;
+  text-align: left;
+}
+
+.skills-img1 {
+  width: 12px;
+  height: 6px;
+}
+
+.skills-img2 {
+  width: 6px;
+  height: 12px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+  color: #344563;
+}
+
+.skills-languages {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-skills {
+  display: flex;
+  flex-direction: row;
+  height: 27%;
+  margin: 5%;
+  background: #f7f7f9;
+  padding: 2%;
+}
+
+.in-text {
+  align-self: center;
+}
+
+.add-skills img {
+  width: 48px;
+  height: 48px;
+  padding-right: 20px;
 }
 
 /* contact form styling */
@@ -277,14 +289,17 @@ button:disabled {
   background-image: url(images/blue-background_720.png);
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: center;
 }
 
 .contact-me {
+  display: flex;
   margin-top: 103px;
   justify-content: center;
   font-size: 40px;
   font-weight: 700;
   color: #fff;
+  align-self: center;
 }
 
 .contact-form p {
@@ -306,12 +321,12 @@ button:disabled {
 }
 
 .form-item {
-  margin: 2% 5%;
+  margin: 2% 4%;
   border-radius: 8px;
 }
 
 .form input {
-  height: 48px;
+  /* height: 48px; */
   border: 1px solid #cfd8dc;
 }
 
@@ -348,10 +363,11 @@ button:disabled {
 .home-shape {
   margin-bottom: 8px;
   margin-top: 20px;
+  margin-left: 30%;
 }
 
 .input-item {
-  padding: 5%;
+  padding: 15px;
 }
 
 .form-button:hover {
@@ -368,4 +384,179 @@ button:disabled {
 .form-button:disabled {
   color: #5e6c84;
   background-color: #fff;
+}
+
+.header-menu ul {
+  display: none;
+}
+
+/* desktop version */
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+  }
+
+  .header-menu img {
+    display: none;
+  }
+
+  .header-menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .header-menu ul li {
+    list-style: none;
+  }
+
+  .header-menu a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .card img {
+    height: 100%;
+  }
+
+  .card-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
+  .about-skill ul {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    background: #fff;
+    margin-right: 50%;
+  }
+
+  .about-skill ul li {
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f9;
+    width: 50%;
+    margin-right: 10%;
+  }
+
+  .form-button {
+    align-self: center;
+    margin-bottom: 15%;
+  }
+
+  .skills-languages {
+    display: flex;
+    flex-direction: row;
+    width: 29%;
+  }
+
+  /* about me section  styling */
+
+  .container-item {
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+
+  .first {
+    margin-top: 20%;
+  }
+
+  .me {
+    margin-top: 5%;
+    width: 40%;
+  }
+
+  .myself {
+    margin-top: 0;
+  }
+
+  .skill-list {
+    width: 45%;
+  }
+
+  .add-skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .in-text {
+    align-self: self-start;
+  }
+
+  .skills-img1 {
+    left: 12px;
+    top: 12px;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  /* .get-resume {
+    font-size: 12px;
+  } */
+
+  /* contact me form styling */
+
+  .items {
+    margin-left: 22%;
+    margin-right: 22%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-item {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .items h2 {
+    justify-content: center;
+    margin-left: 22%;
+    margin-right: 22%;
+  }
+
+  .items p {
+    height: 17%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .home-shape {
+    display: none;
+  }
+
+  .container {
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0;
+    background-image: url(images/background-content-desktop.png);
+    background-size: 96% 98%;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 80px;
+    background: #6070ff;
+    background-image: url(images/contact\ form\ background\ shapes@2x.png);
+    background-size: 90% 77%;
+    margin-top: 0;
+    text-align: center;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
