@@ -26,13 +26,13 @@
     </header>
     
     <section class="container">
-            <h1 class="salutation">I’m Austin. <br> Glad to see you!</h1>
+            <h1 class=" container-item salutation first">I’m Austin. <br> Glad to see you!</h1>
 
-            <p class="developer"> I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+            <p class="container-item developer"> I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
 
-    <h2 class="connect">LET'S CONNECT</h2>
+    <h2 class="container-item connect">LET'S CONNECT</h2>
 
-        <section class="social">
+        <section class="container-item social">
             <ul >
                 <li><a href="https://twitter.com/home"><img src="images/twitter.jpg" alt="twitter"></a></li>
                 <li> <a href="https://www.linkedin.com/feed/"><img src="images/Linkedin-icon.jpg" alt="Linkedin"></a></li>
@@ -48,7 +48,7 @@
 <section class="works">
 <!-- card 1 -->
 <div class="card">
-    <div class="flex-item"><img src="images/tonic1.jpg" alt="works 1"></div>
+    <div class="flex-item"><img class="card-img1" src="images/tonic1.jpg" alt="works 1"></div>
     <div class="flex-item">
         <div class="works1">
             <h2 class="salutation">Tonic</h2>
@@ -74,7 +74,7 @@
 
 <!-- card 2 -->
 <div class="card card-reverse">
-    <div class="flex-item"><img src="images/Snapshoot Portfolio.png" alt="works 1"></div>
+    <div class="flex-item"><img class="card-img2" src="images/Snapshoot Portfolio.png" alt="works 1"></div>
     <div class="flex-item">
         <div class="works1">
             <h2 class="salutation">Tonic</h2>
@@ -100,7 +100,7 @@
 
 <!-- card 3 -->
 <div class="card">
-    <div class="flex-item"><img src="images/multi-post-stories.jpg" alt="works 1"></div>
+    <div class="flex-item"><img class="card-img3" src="images/multi-post-stories.jpg" alt="works 1"></div>
     <div class="flex-item">
         <div class="works1">
             <h2 class="salutation">Tonic</h2>
@@ -126,7 +126,7 @@
 
 <!-- card 4 -->
 <div class="card card-reverse">
-    <div class="flex-item"><img src="images/tonic.jpg" alt="works 1"></div>
+    <div class="flex-item"><img class="card-img4" src="images/tonic.jpg" alt="works 1"></div>
     <div class="flex-item">
         <div class="works1">
             <h2 class="salutation">Tonic</h2>
@@ -154,8 +154,8 @@
 
  <!-- This section gives my background -->
 <section class="about-me">
-    <div >
-        <p class="salutation">About Myself </p>
+    <div class="me">
+        <p class="myself">About Myself </p>
         <p class="developer">Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
 
         <p class="connect">LET'S CONNECT</p>
@@ -174,9 +174,46 @@
 
     </div>
 
-    <section class="skills">
+    
+        <div class="skill-list">
+            <ul>
+                <li>
+                    <span class="skills">
+                        Languages <span><img class="skills-img1" src="./images/arrowDown.jpg" alt="languages"></span>
+                    </span>
+                    <ul class="skills-languages">
+                        <li class="add-skills">
+                            <a href="#"><img src="images/js.jpg" alt="JS"></a>
+                            <span class="in-text">
+                                JavaSript
+                            </span>
+                        </li>
+                        <li class="add-skills">
+                            <a href="#"><img  src="images/html.jpg" alt="HTML"></a>
+                            <span class="in-text">
+                                HTML
+                            </span>
+                        </li>
+                        <li class="add-skills">
+                            <a href="#"><img  src="images/ccs3.jpg" alt="CSS"></a>
+                            <span class="in-text">
+                                CSS
+                            </span>
+                        </li>
+                    </ul> 
+                </li>
+                <li class="skills">Frameworks <span><img class="skills-img2" src="images/arrowRight.jpg" alt="frameworks"></span></li>
+                 <li>
+                    <hr class="line">
+                 </li>
+                <li class="skills">Skills <span><img class="skills-img2" src="images/arrowRight.jpg" alt="Skills"></span></li>
+                <li>
+                    <hr class="line">
+                </li>
+            </ul>
+        </div>
 
-        <ul class="about-skill">
+        <!-- <ul class="about-skill">
             <li class="aboutl">Languages <img src="images/arrowDown.jpg" alt="">
             </li> 
             <ul>
@@ -188,13 +225,15 @@
             <hr>
             <li class="about">Skills <img src="images/arrowRight.jpg" alt=""></li> 
             <hr>
-        </ul>
-    </section>
+        </ul> -->
+    
 </section>
 
 <!-- This section is about contact form -->
 <section class="contact-form">
+    
     <h2 class="contact-me ">Contact me</h2>
+    <div class="items">
     <p class="contact-item">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
         I’d love to help with it!</p>
         <form action="https://formspree.io/f/mlekqgyv" method="post" class="form contact-item">
@@ -204,6 +243,7 @@
             <button class="form-item form-button" type="submit">Get in touch</button>
         </form>
         <img class="home-shape" src="images/Shape.svg" alt="home Shape">
+    </div>
 </section>
 
 </body>

@@ -114,6 +114,7 @@
 .btn1 {
   border-radius: 8px;
   background: #ebebff;
+  color: #6070ff;
   height: 24px;
   border: none;
   padding: 4px 12px 4px 12px;
@@ -203,63 +204,14 @@ button:disabled {
   padding-bottom: 90px;
 }
 
-.about-skill {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 5%;
-}
-
-.aboutl img {
-  width: 12px;
-  height: 6px;
-}
-
-.about img {
-  width: 6px;
-  height: 12px;
-}
-
-.about-skill ul {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  margin-bottom: 6px;
-  margin-top: 5%;
-  margin-right: 5%;
-}
-
-.about-skill li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.about-skill ul img {
-  width: 48px;
-  height: 48px;
-  padding-right: 20px;
-}
-
-.about-skill ul li {
-  display: flex;
-  background: #f7f7f9;
-  border-radius: 8px;
-  padding: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.about {
-  height: 68px;
-}
-
-.social ul li {
-  width: 40px;
-  list-style: none;
+.myself {
+  color: #172b4d;
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
   text-align: left;
+  margin-top: 0;
 }
 
 .get-resume {
@@ -273,6 +225,64 @@ button:disabled {
   background: #fff;
   color: #396df2;
   width: 50%;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.skill-list li {
+  list-style: none;
+}
+
+.social ul li {
+  width: 40px;
+  list-style: none;
+  text-align: left;
+}
+
+.skills-img1 {
+  width: 12px;
+  height: 6px;
+}
+
+.skills-img2 {
+  width: 6px;
+  height: 12px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+}
+
+.skills-languages {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-skills {
+  display: flex;
+  flex-direction: row;
+  height: 27%;
+  margin: 5%;
+  background: #f7f7f9;
+  padding: 2%;
+}
+
+.in-text {
+  align-self: center;
+}
+
+.add-skills img {
+  width: 48px;
+  height: 48px;
+  padding-right: 20px;
 }
 
 /* contact form styling */
@@ -390,13 +400,13 @@ button:disabled {
   .card {
     display: flex;
     flex-direction: row;
-    gap: 6.4%;
+    gap: 2%;
   }
 
   .about-me {
     display: flex;
     flex-direction: row;
-    gap: 6.4%;
+    gap: 2%;
   }
 
   .header-menu img {
@@ -448,6 +458,89 @@ button:disabled {
   }
 
   .form-button {
-    margin-left: 30%;
+    align-self: center;
+    margin-bottom: 15%;
+  }
+
+  .skills-languages {
+    display: flex;
+    flex-direction: row;
+    width: 29%;
+  }
+
+  /* about me section  styling */
+
+  .container-item {
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+
+  .first {
+    margin-top: 20%;
+  }
+
+  .me {
+    margin-top: 5%;
+    width: 40%;
+  }
+
+  .myself {
+    margin-top: 0;
+  }
+
+  .skill-list {
+    width: 45%;
+  }
+
+  .add-skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .in-text {
+    align-self: self-start;
+  }
+
+  .skills-img1 {
+    left: 12px;
+    top: 12px;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .resume {
+    font-size: 12px;
+  }
+
+  .get-resume {
+    font-size: 12px;
+  }
+
+  /* contact me form styling */
+
+  .items {
+    margin-left: 22%;
+    margin-right: 22%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-item {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .items h2 {
+    justify-content: center;
+    margin-left: 22%;
+    margin-right: 22%;
+  }
+
+  .items p {
+    height: 17%;
+  }
+
+  .home-shape {
+    display: none;
   }
 }
