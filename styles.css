@@ -539,11 +539,11 @@ button:disabled {
   }
 
   .container {
-    background-size: 73% 97%;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 0;
-    background-image: url(images/header-shapes\ mobile@2x.svg);
+    background-image: url(images/background-content-desktop.png);
+    background-size: 96% 98%;
   }
 
   .contact-form {
