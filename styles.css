@@ -40,13 +40,11 @@
   text-decoration: none;
   font-weight: 700;
   animation: rotateZ 5s;
+  padding-top: 3em;
 }
 
 /* Adding transisions and animations */
 
-.logo {
-  padding-top: 3em;
-}
 @keyframes rotateZ {
   to {
     transform: rotateZ(-360deg);
