@@ -39,6 +39,7 @@
   text-align: center;
   text-decoration: none;
   font-weight: 700;
+  animation: rotateZ 5s;
 }
 
 .salutation {
@@ -368,4 +369,18 @@ button:disabled {
 .form-button:disabled {
   color: #5e6c84;
   background-color: #fff;
+}
+
+/* Adding transisions and animations */
+
+
+.logo div {
+  padding-top: 3em;
+}
+@keyframes rotateZ {
+  to {
+    transform: rotateZ(-360deg);
+  }
+
+  
 }
