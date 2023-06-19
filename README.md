@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-This is the [live demo link](https://ausiemass.github.io)
+This is the [live demo link](https://ausiemass.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
