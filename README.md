@@ -55,6 +55,14 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+This is the [live demo link](https://ausiemass.github.io)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- GETTING STARTED -->
@@ -127,9 +135,9 @@ You can deploy this project using:
 
 👤 **Austin Masamhiri**
 
-- GitHub: [@ausiemass](https://github.com/)
-- Twitter: [@ausiemass](https://twitter.com/home)
-- LinkedIn: [ausiemass](https://www.linkedin.com/feed/)
+- GitHub: [@ausiemass](https://github.com/ausiemass)
+- Twitter: [@ausiemass](https://twitter.com/ausiemass)
+- LinkedIn: [ausiemass](https://www.linkedin.com/in/austin-masamhiri-268753279/)
 
 👤
 
