@@ -30,3 +30,13 @@ no issues found
 
 #Multimedia
 no issues found
+
+#The basic structure of the page
+
+when styles and images are disabled, the information makes sense when read in the order it is shown. However, some of the alt text do not provide adequate information for the missing images. descriptive text was updated in this PR. Current code is shown on the link below.
+
+https://github.com/ausiemass/portfolio-austin/blob/54e1c6e1807b87b186e88c7e6f451772a3a5ec23/index.html#LL77C1-L77C108
+
+https://github.com/ausiemass/portfolio-austin/blob/54e1c6e1807b87b186e88c7e6f451772a3a5ec23/index.html#LL103C1-L103C107
+
+https://github.com/ausiemass/portfolio-austin/blob/54e1c6e1807b87b186e88c7e6f451772a3a5ec23/index.html#L129
