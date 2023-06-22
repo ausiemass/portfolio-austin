@@ -22,8 +22,8 @@
 /* adding the humburger */
 
 .menu-bar {
-  width: 15px;
   height: 2px;
+  width: 15px;
   background: #6070ff;
   margin: 6px 0;
 }
