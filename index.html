@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Austin's Portifolio Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -48,7 +48,7 @@
 <section class="works">
 <!-- card 1 -->
 <div class="card">
-    <div class="flex-item"><img class="card-img1" src="images/tonic1.jpg" alt="works 1"></div>
+    <div class="flex-item"><img class="card-img1" src="images/tonic1.jpg" alt="From high school dropout to product designer at facebook: Tanner Christensen"></div>
     <div class="flex-item">
         <div class="works1">
             <h2 class="salutation">Tonic</h2>
@@ -74,7 +74,7 @@
 
 <!-- card 2 -->
 <div class="card card-reverse">
-    <div class="flex-item"><img class="card-img2" src="images/Snapshoot Portfolio.png" alt="works 1"></div>
+    <div class="flex-item"><img class="card-img2" src="images/Snapshoot Portfolio.png" alt="Availability"></div>
     <div class="flex-item">
         <div class="works1">
             <h2 class="salutation">Tonic</h2>
@@ -100,7 +100,7 @@
 
 <!-- card 3 -->
 <div class="card">
-    <div class="flex-item"><img class="card-img3" src="images/multi-post-stories.jpg" alt="works 1"></div>
+    <div class="flex-item"><img class="card-img3" src="images/multi-post-stories.jpg" alt="professional art printing"></div>
     <div class="flex-item">
         <div class="works1">
             <h2 class="salutation">Tonic</h2>
@@ -126,7 +126,7 @@
 
 <!-- card 4 -->
 <div class="card card-reverse">
-    <div class="flex-item"><img class="card-img4" src="images/tonic.jpg" alt="works 1"></div>
+    <div class="flex-item"><img class="card-img4" src="images/tonic.jpg" alt="gymfit></div>
     <div class="flex-item">
         <div class="works1">
             <h2 class="salutation">Tonic</h2>
@@ -155,7 +155,7 @@
  <!-- This section gives my background -->
 <section class="about-me">
     <div class="me">
-        <p class="myself">About Myself </p>
+        <h2 class="myself">About Myself </h2>
         <p class="developer">Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
 
         <p class="connect">LET'S CONNECT</p>
@@ -179,7 +179,7 @@
             <ul>
                 <li>
                     <span class="skills">
-                        Languages <span><img class="skills-img1" src="./images/arrowDown.jpg" alt="languages"></span>
+                        Languages <span><img class="skills-img1" src="./images/arrowDown.jpg" alt="arrow down"></span>
                     </span>
                     <ul class="skills-languages">
                         <li class="add-skills">
@@ -223,9 +223,12 @@
     <p class="contact-item">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
         I’d love to help with it!</p>
         <form action="https://formspree.io/f/mlekqgyv" method="post" class="form contact-item">
-            <input class="form-item input-item" type="text" maxlength="30" placeholder="Lorem Ipsum" required>
-            <input class="form-item input-item" type="email" placeholder="loremipsum@gmail.com" required>
-            <textarea class="form-item input-item" name="comment" id="comment" cols="50" rows="10" maxlength="500" placeholder="Write your message here..." required></textarea>
+            <label for="name"> Full Name:</label>
+            <input id="name" class="form-item input-item" type="text" maxlength="30" placeholder="Lorem Ipsum" required>
+            <label for="email">Add your Email:</label>
+            <input id="email" class="form-item input-item" type="email" placeholder="loremipsum@gmail.com" required>
+            <label for="comment">Add comment:</label>
+            <textarea id="comment" class="form-item input-item" name="comment" id="comment" cols="50" rows="10" maxlength="500" placeholder="Write your message here..." required></textarea>
             <button class="form-item form-button" type="submit">Get in touch</button>
         </form>
         <img class="home-shape" src="images/Shape.svg" alt="home Shape">
